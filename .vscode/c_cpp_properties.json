@@ -3,8 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/Users/Khalid zahrah/.platformio/packages/toolchain-atmelavr/avr/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",

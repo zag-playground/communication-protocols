@@ -1,5 +1,6 @@
 #ifndef SPILIB_H
 #define SPILIB_H
+
 #define MOSI PB5
 #define MISO PB6
 #define SCK PB7

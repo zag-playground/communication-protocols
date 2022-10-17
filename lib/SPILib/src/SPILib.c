@@ -1,5 +1,9 @@
-#include "SPILib.h"
+#ifndef __AVR_ATmega32__
+#define __AVR_ATmega32__
+#endif
+
 #include <avr/io.h>
+#include "SPILib.h"
 
 void SPIMasterInit() {
     // Set pin directions and activate SS pull-up

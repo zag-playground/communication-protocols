@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include "UARTLib.h"
 
-void UARTInit(long baudRate) {
+void UARTInit() {
 	UCSRB |= (1 << RXEN) | (1 << TXEN);
 	UCSRC |= (1 << URSEL) | (1 << UCSZ0) | (1 << UCSZ1);
 	UBRRL = BAUD_PRESCALE;

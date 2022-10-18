@@ -4,7 +4,7 @@
 #define BAUDRATE 9600
 #define BAUD_PRESCALE (((F_CPU / (BAUDRATE * 16UL))) - 1)	
 
-void UARTInit(long);
+void UARTInit();
 unsigned char UARTReceive();
 void UARTTransmit(unsigned char);
 
